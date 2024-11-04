@@ -148,4 +148,15 @@ special parameter values that minimize the RMSE
 Special Parameterization 
 optimal model minimizes the validation error.
 
+model is the architecture plus parameters
 
+## Invest time in learning calc 3 problem about 
+i think the loss function RMSE or AKA the objective function
+
+## Start with an Initial Guess
+## Model Training Diagram
+* feed it into your parametric model
+* ouput an initial set of predictions
+* true targets Y
+* predictioons Y
+* loss function is a single number
