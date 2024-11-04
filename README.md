@@ -117,5 +117,8 @@ Solution: coming up with a functional form of the data which will make it easier
 
 It is possible to accidentally overfit data through the optimized hyperparameter loop
 
+using a test set inside of your workflow's model is cheating i guess
+
+
 
 
