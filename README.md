@@ -119,6 +119,9 @@ It is possible to accidentally overfit data through the optimized hyperparameter
 
 using a test set inside of your workflow's model is cheating i guess
 
+any time you do ML you have to cross-validate
+
+linear regression gives you a baseline when doing a regression model
 
 
 
