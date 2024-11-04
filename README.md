@@ -123,5 +123,29 @@ any time you do ML you have to cross-validate
 
 linear regression gives you a baseline when doing a regression model
 
+Visualizing a 4 dimensional object 
+
+encoding variations in a 3 dimensional space: feedback signal visualized by color
+
+2 parameter model is a 2 dimensional space 
+
+minimum value is the best fit model because it minimizes the RMSE or root mean squared error
+
+special parameter values that minimize the RMSE
+
+## Gradient Based optimization
+- goal is to minimize law surface
+- gradient descent is how you train models
+- most neural networks are trained with parameters of neural network that stand with loss function
+- gradient calculation is necessary to train models
+- iteratively train a neural network
+- gradient descent learning gets a special name
+- back propagation to learn gradient vectors so you can train neural network
+  
+* back propagation computes the gradient vector
+* iterative updates of trading process
+
+Special Parameterization 
+optimal model minimizes the validation error.
 
 
