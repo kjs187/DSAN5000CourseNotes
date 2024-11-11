@@ -160,3 +160,44 @@ i think the loss function RMSE or AKA the objective function
 * true targets Y
 * predictioons Y
 * loss function is a single number
+
+# Week 11 - Supervised Learning Fundamentals
+
+## Optimization
+### Gradient Descent and Standard Gradient Descent (GD or SGD)
+* cost function or loss function: mathematical function quantifying error or "cost" of a model's predictions compared to actual values
+### Three popular adaptive optimization methods:
+## AdaGrad, RMSProp, Adam
+# AdaGrad (Adaptoive Gradient Algorithm)
+* purpose is to adaptively adjust learning rate for each parameter individually
+* works by modifying learning rate based on cumulative sum of the gradients squared for each parameter
+* modifies learning rate based on cumulative sum of the gradients squared for each parameter
+# RMSProp (Root Mean Square Propagation)
+* purpose is to address limitations of AdaGrad - its agressive learning rate reduction
+* RMSProp is designed to maintain a more balanced learning rate for each parameter over time by using an exponentially decaying average of squared gradients
+* good for RNNs with time series data where gradients can significantly vary over time
+# Adam (Adaptive Moment Estimation)
+* combines both the advantages of AdaGrad and RMSProp
+* How It Works: Adam maintains two separate moving averages for the gradients: one for the first moment (mean) and another for the second moment (variance). These moving averages are controlled by decay rates ( B1 and B2) and they help stabilize the learning rate, making Adam suitable for complex tasks with large amounts of data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
